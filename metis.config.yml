@@ -1,0 +1,8 @@
+project_token: 959d9eeffd9e80635435f537
+name: predict-coin
+language: python
+entrypoint: main.py
+resources:
+  limits:
+    cpu: 6
+    memory: 2Gi
